@@ -1,0 +1,8 @@
+<div class="note">
+    <div>
+        <h3>{{note.title}}</h3>
+        <p>{{note.text}}</p> 
+        <p>{{note.date | date: "short"}}</p>
+    </div>
+    <fa-icon class="delete_icon"  [icon]= "faTimes" (click)= "onDelete(note)"></fa-icon> 
+</div>

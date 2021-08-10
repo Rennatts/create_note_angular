@@ -1,0 +1,45 @@
+.pior_container{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.main_container{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 70%;
+  min-height: 97vh;
+  border: 2px solid black;
+  margin-top: 22px;
+    
+}
+
+.header{
+  height: 42px;
+  padding-top: 10px;
+  background-color: rgb(170, 16, 42);
+  display: flex;
+  justify-content: space-around;
+}
+
+.header a {
+  text-decoration: none;
+  padding-left: 17px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.header a:hover{
+  color: #ccc;
+  font-size: 19px;
+}
+
+
+.active{
+  display: none  
+}
+
+

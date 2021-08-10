@@ -1,0 +1,67 @@
+.main_form{
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.add-form{
+    height: 50vh;
+    padding-top: 50px;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.form-control .title{
+    padding: 6px;
+}
+
+.form-control .text{
+    padding: 55px 250px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.form-control .title[type="title"]{
+    font-size: 14px;
+    padding-top: 0;
+    padding-left:0;
+
+}
+
+.form-control .text[type="text"]{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0;
+    padding-left:0;
+
+}
+
+
+.btn{
+    margin-top: 20px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(170, 16, 42);
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: rgb(170, 16, 42);
+    color: white;
+
+}
